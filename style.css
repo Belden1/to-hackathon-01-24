@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  --white: hsl(0, 0%, 100%);
+  --lgrey: hsl(217, 12%, 63%);
+  --mgrey: hsl(216, 12%, 54%);
+  --darkblue: hsl(213, 19%, 18%);
+  --verydarkblue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: var(--verydarkblue);
+  font-size: 15px;
+  color: var(--white);
+}
+
+.card {
+  display: flex;
+  background-color: var(--darkblue);
+  width: 400px;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 50px;
+  gap: 20px;
+}
+
+.card p {
+  color: var(--lgrey);
+}
+
+#submit {
+  appearance: none;
+  border: none;
+  height: 50px;
+  border-radius: 15px;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  transition: all 200ms;
+}
+
+.circle:hover {
+  background-color: var(--orange);
+}
+
+.score-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: hsl(216, 12%, 30%);
+  padding: 8px 0;
+  width: 70%;
+  border-radius: 15px;
+  text-align: center;
+}
+.box p {
+  color: var(--orange);
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.thankyou-img {
+  display: flex;
+  justify-content: center;
+}
+
+.thankyouparagraph {
+  text-align: center;
+}
+
+#thankyouid {
+  align-items: center;
+}
