@@ -39,8 +39,8 @@ body {
 #submit {
   appearance: none;
   border: none;
-  height: 50px;
-  border-radius: 15px;
+  height: 40px;
+  border-radius: 25px;
   background-color: var(--orange);
   color: var(--white);
   cursor: pointer;
