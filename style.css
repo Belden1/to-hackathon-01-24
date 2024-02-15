@@ -45,6 +45,10 @@ body {
   background-color: var(--orange);
   color: var(--white);
 }
+#submit:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
 
 .circle {
   width: 40px;
