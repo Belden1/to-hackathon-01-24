@@ -44,6 +44,7 @@ body {
   border-radius: 15px;
   background-color: var(--orange);
   color: var(--white);
+  cursor: pointer;
 }
 #submit:hover {
   background-color: var(--white);
@@ -60,6 +61,7 @@ body {
   align-items: center;
   color: var(--white);
   transition: all 200ms;
+  cursor: pointer;
 }
 
 .circle:hover {
