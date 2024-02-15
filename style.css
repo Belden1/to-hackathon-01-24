@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   --white: hsl(0, 0%, 100%);
   --lgrey: hsl(217, 12%, 63%);
   --mgrey: hsl(216, 12%, 54%);
