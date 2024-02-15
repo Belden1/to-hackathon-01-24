@@ -95,3 +95,7 @@ body {
 #thankyouid {
   align-items: center;
 }
+
+.active {
+  background-color: var(--lgrey);
+}
