@@ -104,3 +104,14 @@ body {
 .active {
   background-color: var(--lgrey);
 }
+
+@media screen and (max-width: 500px) {
+  .circle {
+    width: 35px;
+    height: 35px;
+  }
+
+  .card {
+    width: 325px;
+  }
+}
